@@ -7,12 +7,12 @@ def validateLogin(username, password):
         if (username == "alex" and password == "alex"):
                 tkWindow.destroy()
                 print("ok")
-                import afficheur19 as run
+                import afficheur as run
                 run.foo()
         else:
                 tkWindow.destroy()
                 print("nok")
-                import afficheur19 as run2
+                import afficheur as run2
                 run2.foo()
 
 tkWindow = Tk()  
