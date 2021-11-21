@@ -1,0 +1,157 @@
+<results>
+<generic>
+        <ramUsage>
+         <Server>Client</Server>
+         <TestDate>Date</TestDate>
+         <TotalRam>Ram totale</TotalRam>
+         <UsedRam>Ram utilisée</UsedRam>
+        </ramUsage>
+      
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:02:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>1000</UsedRam>
+        </ramUsage>
+        
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:05:59</TestDate>
+         <TotalRam>100000000000000</TotalRam>
+         <UsedRam>50000000000000</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>13:09:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>4600</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>12:12:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>41264</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client4</Server>
+         <TestDate>14:14:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>20000</UsedRam>
+        </ramUsage>
+
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:15:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>30000</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:18:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>55552</UsedRam>
+        </ramUsage>  
+
+        <SwapSize>
+         <Server>Client</Server>
+         <SwapUsage>Swap usage</SwapUsage>
+         <TestDate>Date</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client1</Server>
+         <SwapUsage>111</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client2</Server>
+         <SwapUsage>222</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client3</Server>
+         <SwapUsage>3333</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client4</Server>
+         <SwapUsage>4444</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client4</Server>
+         <SwapUsage>6666</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client4</Server>
+         <SwapUsage>66666</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client1</Server>
+         <SwapUsage>111</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client2</Server>
+         <SwapUsage>222</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client3</Server>
+         <SwapUsage>3333</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client4</Server>
+         <SwapUsage>4444</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client1</Server>
+         <SwapUsage>111</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client2</Server>
+         <SwapUsage>222</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client3</Server>
+         <SwapUsage>3333</SwapUsage>
+         <TestDate>14:42:01</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client4</Server>
+         <SwapUsage>4444</SwapUsage>
+         <TestDate>14:55:21</TestDate>
+        </SwapSize>
+
+        <SwapSize>
+         <Server>Client5</Server>
+         <SwapUsage>5555</SwapUsage>
+         <TestDate>15:55:21</TestDate>
+        </SwapSize>
+
+</generic>
+</results>

@@ -1,0 +1,62 @@
+<results>
+<generic>
+        <ramUsage>
+         <Server>Client</Server>
+         <TestDate>Date</TestDate>
+         <TotalRam>Ram totale</TotalRam>
+         <UsedRam>Ram utilisée</UsedRam>
+        </ramUsage>
+      
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:02:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>1000</UsedRam>
+        </ramUsage>
+        
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:05:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>500</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>13:09:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>4600</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>12:12:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>41264</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:14:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>20000</UsedRam>
+        </ramUsage>
+
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:15:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>30000</UsedRam>
+        </ramUsage>
+
+        <ramUsage>
+         <Server>Client2</Server>
+         <TestDate>14:18:59</TestDate>
+         <TotalRam>10</TotalRam>
+         <UsedRam>55555</UsedRam>
+        </ramUsage>  
+
+
+</generic>
+</results>
