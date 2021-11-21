@@ -137,7 +137,7 @@ def app():
     # initialise a window. 
     root = Tk() 
     root.config(background='white') 
-    root.geometry("1200x600") 
+    root.geometry("1300x550") 
      
     lab = Label(root, text="Live Plotting", bg = 'white').pack() 
      
@@ -159,6 +159,8 @@ def app():
             #ax.set_xticks(data_points_client1_date_x) # Tickmark + label at every plotted point
             #ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
             ax.plot(X, Y, marker='o', color='orange') 
+            ax.tick_params(axis='x', labelsize=8)
+            plt.plot(range(0, 500))
             ax.set_xlabel("date") 
             ax.set_ylabel("RAM utilisé")
             graph.draw() 
@@ -185,7 +187,7 @@ def app2():
     # initialise a window.
     root = Tk() 
     root.config(background='white') 
-    root.geometry("1200x600") 
+    root.geometry("1300x550") 
      
     lab = Label(root, text="Live Plotting", bg = 'white').pack() 
      
@@ -206,7 +208,8 @@ def app2():
             Y = data_points_client1_swap()
             #ax.set_xticks(data_points_client1_date_x) # Tickmark + label at every plotted point
             #ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
-            ax2.plot(X, Y, marker='o', color='orange') 
+            ax2.plot(X, Y, marker='o', color='orange')
+            ax2.tick_params(axis='x', labelsize=8)
             ax2.set_xlabel("date") 
             ax2.set_ylabel("swap utilisé")
             graph.draw() 
@@ -231,7 +234,7 @@ def app3():
     # initialise a window.
     root = Tk() 
     root.config(background='white') 
-    root.geometry("1200x600") 
+    root.geometry("1300x550") 
      
     lab = Label(root, text="Live Plotting", bg = 'white').pack() 
      
@@ -252,7 +255,8 @@ def app3():
             Y = data_points_client2_ram()
             #ax.set_xticks(data_points_client1_date_x) # Tickmark + label at every plotted point
             #ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
-            ax3.plot(X, Y, marker='o', color='orange') 
+            ax3.plot(X, Y, marker='o', color='orange')
+            ax3.tick_params(axis='x', labelsize=8) 
             ax3.set_xlabel("date") 
             ax3.set_ylabel("ram utilisé")
             graph.draw() 
@@ -277,7 +281,7 @@ def app4():
     # initialise a window.
     root = Tk() 
     root.config(background='white') 
-    root.geometry("1200x600") 
+    root.geometry("1300x550") 
      
     lab = Label(root, text="Live Plotting", bg = 'white').pack() 
      
@@ -298,7 +302,8 @@ def app4():
             Y = data_points_client2_swap()
             #ax.set_xticks(data_points_client1_date_x) # Tickmark + label at every plotted point
             #ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
-            ax4.plot(X, Y, marker='o', color='orange') 
+            ax4.plot(X, Y, marker='o', color='orange')
+            ax4.tick_params(axis='x', labelsize=8)
             ax4.set_xlabel("date") 
             ax4.set_ylabel("swap utilisé")
             graph.draw() 
