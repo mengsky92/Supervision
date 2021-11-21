@@ -12,7 +12,7 @@ def validateLogin(username, password):
         else:
                 tkWindow.destroy()
                 print("nok")
-                import afficheur18_copy as run2
+                import afficheur19 as run2
                 run2.foo()
 
 tkWindow = Tk()  
