@@ -67,8 +67,8 @@ def menu():
     Client2.add_cascade(label="Trier", underline=0, menu=Client2_Trier)
     Client2.add_separator()
     Client2_graphiques = Menu(menubar, tearoff=0)
-    Client2_graphiques.add_command(label="RAM", command = app)
-    Client2_graphiques.add_command(label="SWAP", command = app)
+    Client2_graphiques.add_command(label="RAM", command = app3)
+    Client2_graphiques.add_command(label="SWAP", command = app4)
     Client2.add_cascade(label="Graphiques", underline=0, menu=Client2_graphiques)
 
     Clients= Menu(menubar, tearoff=0,relief='flat', bd=5,activebackground='red',activeborderwidth=1, font=("Verdana", 12))
